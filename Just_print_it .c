@@ -1,4 +1,4 @@
-/*gcc -fno-stack-protector -no-pie -z execstack -g -Wno-implicit-function-declaration medi.c -o pwnMe*/
+/*gcc -fno-stack-protector -no-pie -z execstack -g -Wno-implicit-function-declaration in.c -o out*/
 #include <stdio.h>
 #include <stdlib.h>
 
