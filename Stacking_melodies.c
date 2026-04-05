@@ -4,7 +4,7 @@
 #include <string.h>
 
 /* 
-   gcc -no-pie -g musically_challenged.c -o pwnMe
+   gcc -no-pie -g in.c -o out
 */
 
 typedef void (*event_handler)(const char *, int);
